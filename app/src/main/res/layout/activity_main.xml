@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chọn sở thích"
+        android:textSize="20sp"
+        android:layout_marginBottom="15dp"/>
+
+    <CheckBox
+        android:id="@+id/cbSach"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Đọc sách"/>
+
+    <CheckBox
+        android:id="@+id/cbNhac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nghe nhạc"/>
+
+    <CheckBox
+        android:id="@+id/cbDuLich"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Du lịch"/>
+
+    <CheckBox
+        android:id="@+id/cbTheThao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chơi thể thao"/>
+
+    <Button
+        android:id="@+id/btnResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Xem kết quả"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>
