@@ -3,11 +3,19 @@ plugins {
 }
 
 android {
+<<<<<<< HEAD
     namespace = "com.yourname.bai_1"
     compileSdk = 36
 
     defaultConfig {
         applicationId = "com.yourname.bai_1"
+=======
+    namespace = "com.yourname.bai_2"
+    compileSdk = 36
+
+    defaultConfig {
+        applicationId = "com.yourname.bai_2"
+>>>>>>> 348c6523bc49a2f0cd1a86b9f2cd472aacd69346
         minSdk = 24
         targetSdk = 36
         versionCode = 1
